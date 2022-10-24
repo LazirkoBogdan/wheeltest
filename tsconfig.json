@@ -1,0 +1,19 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["es2017", "dom"],
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "paths": {}
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/vendor", "**/*.spec.ts"]
+}
